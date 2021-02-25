@@ -59,11 +59,13 @@ h1 {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 0;
+  animation: rotate-enter 0.8s;
 }
 #first-div p {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 1rem;
+  animation: rotate-enter 0.8s;
 }
 /* SECOND PART => WHAT'S ON SPOTIFY*/
 #second-div {
@@ -89,6 +91,47 @@ h2 {
 .what h3 {
   color: #00b172;
 }
+.what img {
+  height: 50%;
+}
 .icon {
   width: 9rem;
+}
+/* THIRD PART KENNY WEST*/
+#third-div {
+  background-color: #00b172;
+}
+
+/* ANIMATION*/
+@keyframes rotate-enter {
+  0% {
+    transform: scale(0);
+  }
+  10% {
+    transform: rotateZ(36deg) scale(0.1);
+  }
+  20% {
+    transform: rotateZ(72deg) scale(0.2);
+  }
+  30% {
+    transform: rotateZ(108deg) scale(0.3);
+  }
+  40% {
+    transform: rotateZ(146deg) scale(0.4);
+  }
+  50% {
+    transform: rotateZ(182deg) scale(0.5);
+  }
+  60% {
+    transform: rotateZ(218deg) scale(0.6);
+  }
+  80% {
+    transform: rotateZ(256deg) scale(0.7);
+  }
+  90% {
+    transform: rotateZ(292deg) scale(0.8);
+  }
+  100% {
+    transform: rotateZ(328deg) scale(0.9);
+  }
 }
