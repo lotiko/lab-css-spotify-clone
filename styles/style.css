@@ -6,6 +6,7 @@ Green: #00B172
 White: #FFF
 
 */
+/* HEADER PART + WELCOME IMG*/
 body,
 html {
   margin: 0;
@@ -28,6 +29,13 @@ header > img {
   margin-left: 2rem;
   height: 3rem;
 }
+ul {
+  /* text-align: center; */
+  float: right;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
 a {
   text-decoration: none;
   color: black;
@@ -47,21 +55,40 @@ ul > li {
   color: white;
   /* margin-top: 4.5rem; */
 }
-#first-div p {
-  font-size: 1.5rem;
-  text-align: center;
-  margin-top: 1rem;
-}
 h1 {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 0;
 }
-
-ul {
-  /* text-align: center; */
-  float: right;
+#first-div p {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+/* SECOND PART => WHAT'S ON SPOTIFY*/
+#second-div {
+  text-align: center;
+}
+#all-what {
   display: flex;
   justify-content: space-around;
-  list-style: none;
+  margin-top: 3rem;
+}
+h2 {
+  margin-top: 2rem;
+  display: inline-block;
+  border-bottom: 3px solid #00b172;
+}
+.what {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.what h3 {
+  color: #00b172;
+}
+.icon {
+  width: 9rem;
 }
