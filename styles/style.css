@@ -12,6 +12,7 @@ html {
   margin: 0;
   color: #1a1a1a;
   font-family: sans-serif;
+  font-weight: lighter;
 }
 header {
   position: fixed;
@@ -53,19 +54,18 @@ ul > li {
   width: 100%;
   align-items: center;
   color: white;
-  /* margin-top: 4.5rem; */
 }
 h1 {
   font-size: 4rem;
   font-weight: bold;
   margin-bottom: 0;
-  animation: rotate-enter 0.8s;
+  animation: rotate-enter 1.5s;
 }
 #first-div p {
   font-size: 1.5rem;
   text-align: center;
   margin-top: 1rem;
-  animation: rotate-enter 0.8s;
+  animation: rotate-enter 1.5s;
 }
 /* SECOND PART => WHAT'S ON SPOTIFY*/
 #second-div {
@@ -100,6 +100,37 @@ h2 {
 /* THIRD PART KENNY WEST*/
 #third-div {
   background-color: #00b172;
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  margin: 0 2rem 0 2rem;
+  font-size: 1.4rem;
+}
+#bloc-txt-west {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+#bloc-txt-west > h2 {
+  display: inline-block;
+  border-bottom: 3px solid #fff;
+  font-size: 1.7rem;
+}
+#bloc-txt-west > h3 {
+  font-size: 1.4rem;
+}
+#bloc-txt-west p {
+  width: 18rem;
+}
+#third-div > .icon {
+  width: 10rem;
+  height: 10rem;
+  align-self: center;
+  margin-left: -15rem;
+}
+#west-img {
+  height: 40rem;
+  align-self: center;
 }
 
 /* ANIMATION*/
